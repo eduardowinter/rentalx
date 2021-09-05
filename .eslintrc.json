@@ -18,6 +18,7 @@
     "plugins": [
         "@typescript-eslint",
         "plugin:@typescript-eslint/recommended",
+        "eslint-plugin-import-helpers",
         "prettier"
     ],
     "rules": {
