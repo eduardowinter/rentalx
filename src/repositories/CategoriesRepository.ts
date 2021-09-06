@@ -35,4 +35,4 @@ class CategoriesRepository {
   }
 }
 
-export { CategoriesRepository }
+export { CategoriesRepository };
