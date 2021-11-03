@@ -24,9 +24,7 @@ categoriesRoutes.post(
   createCategoryController.handle
 );
 
-categoriesRoutes.get("/", (request, response) => {
-  return listCategoriesController.handle(request, response);
-});
+categoriesRoutes.get("/", listCategoriesController.handle);
 
 categoriesRoutes.post(
   "/import",

@@ -79,3 +79,4 @@ O usuário deve estar logado na aplicação
 
 <!-- CORRIGIR -->
 <!-- consertar erro no último teste, não grava não banco ao criar, por isso não consegue listar. -->
+<!-- mais um erro pra teste: Create Rental › should not be able to create a new rental if there is another open to the same user. -->
