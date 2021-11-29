@@ -77,6 +77,18 @@ Deve ser possível realizar a busca de todos os alugueis para o usuário
 **RN**
 O usuário deve estar logado na aplicação
 
+# Recuperar Senha
+
+**RF**
+- Deve ser possível o usuário recuperar a senha informando o e-mail
+- O usuário deve receber um e-mail com o passo a passo para a recuperação da senha
+- O usuário deve consguir inserir uma nova senha
+
+**RN**
+- O usuário precisa informar uma nova senha
+- O link enviado para a recuperação deve expirar em 3 horas
+
 <!-- CORRIGIR -->
+<!-- Testes de modo geral, dar um boa revisada -->
 <!-- consertar erro no último teste, não grava não banco ao criar, por isso não consegue listar. -->
 <!-- mais um erro pra teste: Create Rental › should not be able to create a new rental if there is another open to the same user. -->
